@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DatabaseQuizApp</string>
+    <string name="quiz">QUIZ-APP!!</string>
+    <string name="welcome">Welcome</string>
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="hint_enter_name">Enter Name</string>
+    <string name="start">START</string>
+    <string name="subject">SUBJECTS!!!</string>
+    <string name="maths">Maths</string>
+    <string name="english">English</string>
+    <string name="crs">CRS</string>
+    <string name="question">What is this?</string>
+    <string name="finish">FINISH</string>
+    <string name="submit">SUBMIT</string>
+    <string name="next_question">NEXT QUESTION</string>
+    <string name="scores">Scores</string>
+    <string name="no_scores">No Scores Available!!</string>
+    <string name="scoresDb">SCORES</string>
+</resources>

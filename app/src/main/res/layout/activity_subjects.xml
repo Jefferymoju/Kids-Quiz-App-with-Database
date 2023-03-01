@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context=".activities.Subjects">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/subject"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btn_crs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crs"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:backgroundTint="@color/teal_700"
+        android:textSize="30sp"
+        app:cornerRadius = "25dp" />
+
+    <Button
+        android:id="@+id/btn_maths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maths"
+        android:textSize="30sp"
+        android:paddingStart="10dp"
+        android:backgroundTint="@color/blue"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="20dp"
+        app:cornerRadius = "25dp" />
+
+    <Button
+        android:id="@+id/btn_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/english"
+        android:paddingStart="10dp"
+        android:backgroundTint="@color/green"
+        android:paddingEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        app:cornerRadius = "25dp" />
+
+
+
+</LinearLayout>
